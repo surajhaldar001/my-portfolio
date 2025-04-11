@@ -12,7 +12,13 @@ import Footer from "./components/Footer";
 
 function App() {
   const [dark, setDark] = useState(false);
+  
   useEffect(() => {
+    // Wait for DOM + AOS animations to settle
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }, 100);
+    
     AOS.init({
       duration: 800,
       easing: 'ease-in-out',
@@ -20,6 +26,7 @@ function App() {
       once: true,
     });
   }, []);
+  
   
   return (
     <div className={dark ? "dark" : ""}>

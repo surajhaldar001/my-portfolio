@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="pt-16 min-h-[70vh] bg-gradient-to-r from-indigo-400 to-cyan-400 dark:from-gray-800 dark:to-gray-900 text-white text-center transition-colors duration-500"
+      className="pt-24 min-h-[80vh] bg-gradient-to-r from-indigo-400 to-cyan-400 dark:from-gray-800 dark:to-gray-900 text-white text-center transition-colors duration-500"
       data-aos="fade-up"
     >
       <h1 className="text-5xl font-bold">{portfolioContent.name}</h1>
