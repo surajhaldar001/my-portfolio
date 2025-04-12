@@ -1,5 +1,4 @@
 import portfolioContent from '../content/portfolioContent';
-
 const Projects = () => {
     return (
         <section id="projects" className="py-16 px-6 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-white transition-colors duration-500">

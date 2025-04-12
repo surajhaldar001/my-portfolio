@@ -67,7 +67,7 @@ const portfolioContent = {
         name: "Food Munch",
         description: "Responsive food catalog site with video previews and search functionality.",
         tech: ["HTML", "CSS", "Bootstrap"],
-        link: "https://surajfoodmunch.ccbp.tech/"
+        link: "https://surajhfoodmunch.ccbp.tech/"
       }
     ],
   
