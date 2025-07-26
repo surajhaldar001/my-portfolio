@@ -7,7 +7,7 @@ const portfolioContent = {
     email: "surajhaldar001@gmail.com",
     phone: "8805280126",
     linkedin: "https://www.linkedin.com/in/surajhaldar",
-    resumeLink: "/Suraj_SDE.pdf",
+    resumeLink: "/Suraj_SDE2.pdf",
   
     about: `
       Versatile Software Development Engineer (SDE 1) with 2 years of expertise in Full Stack Development.
